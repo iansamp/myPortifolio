@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    height: 1200px;
+    width: 350px;
+    background-color: #000000;
+    color: #FFD800;
+}
+
+.navbar nav ul li a, li{
+    list-style: none;
+    text-decoration: none;
+    color: #FFD800;
+}
+
+.navbar div ul{
+    display: flex;
+    padding: 1em;
+}
+
+.navbar div ul li a img{
+    background-color: #FFD800;
+    width: 35px;
+    padding: .2em;
+    margin: .5em;
+    border-radius: 50%;
+}
+
+.navbar footer{
+    color: #FFF;
+}

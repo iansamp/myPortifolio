@@ -1,13 +1,14 @@
 import './App.css'
+import Navbar from './components/Navbar'
+import Content from './components/Content'
 
 function App() {
 
   return (
-    <>
-      <div>
-        <h1>init project</h1>
-      </div>
-    </>
+    <div className='background'>
+      <Navbar/>
+      <Content/>
+    </div>
   )
 }
 
