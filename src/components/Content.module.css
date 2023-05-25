@@ -1,5 +1,6 @@
 .content{
-    color: rgb(0, 136, 255);
+    color: rgb(255, 255, 255);
     margin-left: 250px;
-    height: 1200px;
+    height: max-content;
+    display: flex;
 }
