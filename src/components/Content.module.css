@@ -3,4 +3,5 @@
     margin-left: 250px;
     height: max-content;
     display: flex;
+    flex-direction: column;
 }
