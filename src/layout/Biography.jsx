@@ -1,4 +1,6 @@
 import styles from './Biography.module.css'
+import Splid from '../components/Splide'
+
 
 export default function Biography(){
     return(
@@ -11,9 +13,7 @@ export default function Biography(){
                     <p>10/2022 - 12/2024</p>
                 </div>
                 <div className={styles.imgs}>
-                    <img src="../public/img/discover-conectar.jpg" alt="" />
-                    <img src="../public/img/discover-fundamentar.jpg" alt="" />
-                    <img src="../public/img/discover-especializar.jpg" alt="" />
+                    <Splid/>
                 </div>
             </div>
         </div>
