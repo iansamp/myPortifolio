@@ -5,8 +5,8 @@ import Splid from '../components/Splide'
 export default function Biography(){
     return(
         <div className={styles.biography}>
-            <div>
                 <h1>Educação & Experiencia</h1>
+            <div>
                 <div className={styles.info}>
                     <h2>UNIASSELVI</h2>
                     <span>Formando em Análise e Desenvolvimento de Sistemas</span>

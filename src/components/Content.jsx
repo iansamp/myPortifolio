@@ -2,6 +2,7 @@ import styles from './Content.module.css'
 import Navbar from './Navbar'
 import Home from '../layout/Home'
 import Biography from '../layout/Biography'
+import Skills from '../layout/Skills'
 
 export default function Content(){
     return(
@@ -9,6 +10,7 @@ export default function Content(){
             <Navbar/>
             <Home/>
             <Biography/>
+            <Skills/>
         </div>
     )
 }

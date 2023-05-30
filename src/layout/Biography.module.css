@@ -1,10 +1,9 @@
-
-
 .biography{
     display: flex;
+    flex-direction: column;
 }
 
-.biography div h1{
+.biography h1{
     text-align: center;
     color: #FFD800;
 }
@@ -23,7 +22,8 @@
 }
 
 .biography .imgs{
-    padding: 1em 8.5em;
+    margin-left: 3em;
+    padding: 00em 8.5em;
     display: flex;
     justify-content: center;
     flex-direction: column;

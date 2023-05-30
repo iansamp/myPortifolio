@@ -1,0 +1,48 @@
+.skills{
+    padding: 5em;
+}
+
+.skills h1{
+    color: #FFD800;
+    text-align: center;
+    font-size: 30px;
+    padding: 1em 0em 4em 0em;
+}
+
+
+.progressBar{
+    display: flex;
+    align-items: center;
+}
+
+.progressBar div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 860px;
+}
+
+.progressBar p{
+    color: #000;
+    padding-left: .5em;
+}
+  
+
+.container {
+    height: 50px;
+    padding: 0px;
+    background-color: #ccc;
+    position: relative;
+    margin-bottom: 3em;
+}
+
+.container .progressBar{
+   position: absolute;
+   height: 100%;
+   width: 80%;
+   background-color: #FFD800;
+}
+
+.react{
+    width: 100%;
+}
