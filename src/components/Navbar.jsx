@@ -10,7 +10,7 @@ export default function Navbar(){
                         <li><a href="">Home</a></li>
                         <li><a href="">Biografia</a></li>
                         <li><a href="">Habilidades</a></li>
-                        <li><a href="">Potifolio</a></li>
+                        <li><a href="">Portfólio</a></li>
                         <li><a href="">Contato</a></li>
                     </ul>
                 </nav>

@@ -47,11 +47,11 @@ export default function Skills(){
             </Container>
 
             <Container>
-                <ProgressBar Percent="70%">
+                <ProgressBar Percent="75%">
                     <img src="../public/svg/wordpress.svg" alt="Wordpress" />
                     <div>
                         <p>Wordpress</p>
-                        <p>70%</p>
+                        <p>75%</p>
                     </div>
                 </ProgressBar>
             </Container>

@@ -1,0 +1,14 @@
+.portfolio h1{
+    color: #FFD800;
+    text-align: center;
+    font-size: 30px;
+    padding: 1em 0em 3em 0em;
+}
+
+.portfolio .components{
+    margin: 1em;
+    gap: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

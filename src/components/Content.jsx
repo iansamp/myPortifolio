@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Home from '../layout/Home'
 import Biography from '../layout/Biography'
 import Skills from '../layout/Skills'
+import Portfolio from '../layout/Portfolio'
 
 export default function Content(){
     return(
@@ -11,6 +12,7 @@ export default function Content(){
             <Home/>
             <Biography/>
             <Skills/>
+            <Portfolio/>
         </div>
     )
 }
