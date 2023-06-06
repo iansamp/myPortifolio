@@ -4,6 +4,7 @@ import Home from '../layout/Home'
 import Biography from '../layout/Biography'
 import Skills from '../layout/Skills'
 import Portfolio from '../layout/Portfolio'
+import Contact from '../layout/Contact'
 
 export default function Content(){
     return(
@@ -13,6 +14,7 @@ export default function Content(){
             <Biography/>
             <Skills/>
             <Portfolio/>
+            <Contact/>
         </div>
     )
 }
