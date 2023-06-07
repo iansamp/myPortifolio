@@ -19,7 +19,7 @@
 }
 
 .form form p {
-    font-size: 30px;
+    font-size: 34px;
     padding-bottom: 3em;
 }
 
@@ -40,8 +40,9 @@
 }
 
 .form .msg{
-    height: 10em;
+    padding-bottom: 100px;
     border-radius: 0;
     border: none;
     margin-bottom: 1.5em;
+    max-width: 500px;
 }

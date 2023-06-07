@@ -1,11 +1,13 @@
 import styles from "./Skills.module.css";
 import { Container } from "./styled/Bar.style";
 import { ProgressBar } from "./styled/progressBar.style";
+import { Title } from './styled/Title.style'
+
 
 export default function Skills(){
     return(
         <section className={styles.skills}>
-            <h1>Habilidades</h1>
+            <Title>Habilidades</Title>
             <Container>
                 <ProgressBar Percent="80%">
                     <img src="../public/svg/figma.svg" alt="Figma" />

@@ -7,6 +7,8 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import styles from './Portfolio.module.css'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { Title } from './styled/Title.style'
+
 
 export default function Portfolio() {
 
@@ -18,7 +20,7 @@ export default function Portfolio() {
 
   return (
     <div className={styles.portfolio}>
-        <h1>Portfólio</h1>
+        <Title>Portfólio</Title>
       <div className={styles.components}>
         <ThemeProvider theme={darkTheme}>
           <Card sx={{ maxWidth: 325 }}>

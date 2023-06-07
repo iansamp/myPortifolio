@@ -1,11 +1,12 @@
 import styles from './Biography.module.css'
 import Splid from '../components/Splide'
+import { Title } from './styled/Title.style'
 
 
 export default function Biography(){
     return(
         <div className={styles.biography}>
-                <h1>Educação & Experiencia</h1>
+                <Title>Educação & Experiencia</Title>
             <div>
                 <div className={styles.info}>
                     <h2>UNIASSELVI</h2>
