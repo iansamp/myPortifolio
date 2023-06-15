@@ -1,5 +1,5 @@
 import styles from './Content.module.css'
-import Navbar from './Navbar'
+import Navbar from './Nav/Navbar'
 import Home from '../layout/Home'
 import Biography from '../layout/Biography'
 import Skills from '../layout/Skills'
