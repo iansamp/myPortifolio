@@ -2,16 +2,19 @@ import styles from './Navbar.module.css'
 
 export default function Navbar(){
     return(
+
+
+
         <div className={styles.navbar}>
             <section>
                 <h1>Ian Sampaio</h1>
                 <nav>
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Biografia</a></li>
-                        <li><a href="">Habilidades</a></li>
-                        <li><a href="">Portfólio</a></li>
-                        <li><a href="">Contato</a></li>
+                        <li><a href="http://localhost:5173/#Home">Home</a></li>
+                        <li><a href="http://localhost:5173/#Biography">Biografia</a></li>
+                        <li><a href="http://localhost:5173/#Skills">Habilidades</a></li>
+                        <li><a href="http://localhost:5173/#Portfolio">Portfólio</a></li>
+                        <li><a href="http://localhost:5173/#Contact">Contato</a></li>
                     </ul>
                 </nav>
                 <div>

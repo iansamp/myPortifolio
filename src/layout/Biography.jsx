@@ -5,7 +5,7 @@ import { Title } from './styled/Title.style'
 
 export default function Biography(){
     return(
-        <div className={styles.biography}>
+        <div id='Biography' className={styles.biography}>
                 <Title>Educação & Experiencia</Title>
             <div>
                 <div className={styles.info}>

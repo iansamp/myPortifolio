@@ -4,7 +4,7 @@ import { Submit } from './styled/Submit.style'
 
 export default function Contact(){
     return(
-        <div className={styles.form}>
+        <div id='Contact' className={styles.form}>
             <Title>Contato</Title>
             <form>
                 <p>ianosampaio@gmail.com</p>

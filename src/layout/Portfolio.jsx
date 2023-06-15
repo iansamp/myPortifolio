@@ -19,7 +19,7 @@ export default function Portfolio() {
   })
 
   return (
-    <div className={styles.portfolio}>
+    <div id='Portfolio' className={styles.portfolio}>
         <Title>Portfólio</Title>
       <div className={styles.components}>
         <ThemeProvider theme={darkTheme}>

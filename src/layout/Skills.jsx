@@ -6,7 +6,7 @@ import { Title } from './styled/Title.style'
 
 export default function Skills(){
     return(
-        <section className={styles.skills}>
+        <section id="Skills" className={styles.skills}>
             <Title>Habilidades</Title>
             <Container>
                 <ProgressBar Percent="80%">
