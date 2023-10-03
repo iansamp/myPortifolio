@@ -53,12 +53,17 @@ const Nav = styled.nav`
     padding: 0.5em;
     text-align: center;
   }
+
+  nav ul li:hover {
+    background-color: #ffd9002f;
+    transition: .3s;
+}
 `;
 
 const Navbarres = () => {
   return (
     <Nav>
-      <Burger />
+      <Burger/>
     </Nav>
   );
 };

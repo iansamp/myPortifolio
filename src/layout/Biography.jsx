@@ -10,7 +10,7 @@ export default function Biography() {
         <div className={styles.info}>
           <h2>UNIASSELVI</h2>
           <span>Formando em Análise e Desenvolvimento de Sistemas</span>
-          <p>10/2022 - 12/2024</p>
+          <p>10/2022 - 05/2025</p>
         </div>
         <div className={styles.imgs}>
           <Splid />

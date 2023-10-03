@@ -1,5 +1,5 @@
 .home{
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .home div{
@@ -7,15 +7,33 @@
     padding-bottom: 200px;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .home div p{
     font-size: 15px;
-    padding: 100px;
+    text-align: left;
+    padding-right: 100px;
 }
 
 .home div img{
     width: 300px;
     margin: 1em;
     margin-left: 3em;
+}
+
+@media (max-width: 1024px){
+    .home div{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home div p{
+        font-size: 15px;
+        width: 500px;
+        margin-left: 200px;
+    }
 }

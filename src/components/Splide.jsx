@@ -28,6 +28,18 @@ export default function Splid() {
             alt="especializar"
           />
         </SplideSlide>
+        <SplideSlide>
+          <img
+            src="../public/img/UC-a5463827-106a-49a5-92a4-77efff188226.jpg"
+            alt="MySQL"
+          />
+        </SplideSlide>
+        <SplideSlide>
+          <img
+            src="../public/img/UC-f2985632-78d0-44a3-824f-9bbcfa734621.jpg"
+            alt="Udemy"
+          />
+        </SplideSlide>
       </Splide>
     </div>
   );

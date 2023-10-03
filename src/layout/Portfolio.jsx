@@ -25,9 +25,39 @@ export default function Portfolio() {
             <CardMedia
               component="img"
               alt="imagem"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
+              height="170"
+              image="../public/img/gerenciador.png"
             />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Costs
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                O projeto Gerenciador de Projetos é uma aplicação web que visa
+                facilitar a organização, acompanhamento e gerenciamento de
+                projetos.
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <a
+                className={styles.a}
+                href="https://github.com/iansamp/GerenciadorProjetos"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a className={styles.a} href="" target="_blank">
+                Site
+              </a>
+            </CardActions>
+          </Card>
+        </ThemeProvider>
+
+        {/* ------------------------------------------------------------------------- */}
+
+        <ThemeProvider theme={darkTheme}>
+          <Card sx={{ maxWidth: 325 }}>
+            <CardMedia component="img" alt="imagem" height="140" image="" />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 Lizard
@@ -38,8 +68,12 @@ export default function Portfolio() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="small">Site</Button>
-              <Button size="small">GitHub</Button>
+              <a className={styles.a} href="" target="_blank">
+                GitHub
+              </a>
+              <a className={styles.a} href="" target="_blank">
+                Site
+              </a>
             </CardActions>
           </Card>
         </ThemeProvider>
@@ -64,8 +98,12 @@ export default function Portfolio() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="small">Site</Button>
-              <Button size="small">GitHub</Button>
+              <a className={styles.a} href="" target="_blank">
+                GitHub
+              </a>
+              <a className={styles.a} href="" target="_blank">
+                Site
+              </a>
             </CardActions>
           </Card>
         </ThemeProvider>
@@ -90,34 +128,12 @@ export default function Portfolio() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="small">Site</Button>
-              <Button size="small">GitHub</Button>
-            </CardActions>
-          </Card>
-        </ThemeProvider>
-
-        {/* ------------------------------------------------------------------------- */}
-
-        <ThemeProvider theme={darkTheme}>
-          <Card sx={{ maxWidth: 325 }}>
-            <CardMedia
-              component="img"
-              alt="imagem"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Lizard
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <Button size="small">Site</Button>
-              <Button size="small">GitHub</Button>
+              <a className={styles.a} href="" target="_blank">
+                GitHub
+              </a>
+              <a className={styles.a} href="" target="_blank">
+                Site
+              </a>
             </CardActions>
           </Card>
         </ThemeProvider>
