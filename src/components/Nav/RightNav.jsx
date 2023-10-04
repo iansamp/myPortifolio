@@ -57,7 +57,7 @@ const RightNav = ({ open }) => {
                 href="https://www.instagram.com/ian.sampaio015/"
                 target="_blank"
               >
-                <img src="../public/svg/instagram.svg" alt="instagram" />
+                <img src="../public/svgs/instagram.svg" alt="instagram" />
               </a>
             </li>
             <li>
@@ -65,12 +65,12 @@ const RightNav = ({ open }) => {
                 href="https://www.linkedin.com/in/ian-sampaio-204483246/"
                 target="_blank"
               >
-                <img src="../public/svg/linkedin.svg" alt="linkedin" />
+                <img src="../public/svgs/linkedin.svg" alt="linkedin" />
               </a>
             </li>
             <li>
               <a href="https://github.com/iansamp" target="_blank">
-                <img src="../public/svg/github.svg" alt="github" />
+                <img src="../public/svgs/github.svg" alt="github" />
               </a>
             </li>
           </ul>
